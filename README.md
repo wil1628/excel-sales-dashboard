@@ -1,35 +1,43 @@
 # 📊 Excel Sales Dashboard
 
-Este proyecto utiliza un conjunto de datos de ventas para aplicar un análisis completo usando Microsoft Excel: limpieza de datos, generación de KPIs, visualización mediante dashboard y análisis ejecutivo.
+This project uses a real-world sales dataset to perform a full data analysis with Microsoft Excel: data cleaning, KPI creation, interactive dashboard visualization, and executive business insights.
 
-## 📁 Contenido
-- `dashboard_ventas.xlsx`: archivo Excel con los KPIs, dashboard y análisis gráfico
-- `dataset_superstore.xlsx`: dataset original (Superstore - Kaggle)
-- `README.md`: documentación del proyecto
+## 📁 Project Files
+- `dashboard_sales.xlsx`: Excel file with KPIs, dashboard, and visual analysis
+- `superstore_dataset.xlsx`: Original dataset (from Kaggle)
+- `README.md`: Project documentation
 
-## 🧹 Limpieza de Datos
-- Sin duplicados ni celdas vacías
-- Fechas en formato corto
-- Campo calculado: Margen = (Ganancia / Ventas) * 100
-- Promedio de margen general: **12.03%**
+## 🧹 Data Cleaning
+- No duplicate or blank cells
+- Date fields formatted properly (short format)
+- New calculated field: Margin = (Profit / Sales) * 100
+- Average overall margin: **12.03%**
 
-## 📈 KPIs y Hallazgos
-- **Clientes más valiosos:** Sean Millir, Tamara Chand, Raymond Buch
-- **Subcategoría con más ventas:** Phones
-- **Subcategoría más rentable:** Copiers
-- **Región dominante:** West
-- **Subcategoría menos rentable:** Tables (-$17,725.48)
+## 📈 KPIs & Findings
+- **Top customers:** Sean Millir, Tamara Chand, Raymond Buch
+- **Best-selling subcategory:** Phones
+- **Most profitable subcategory:** Copiers
+- **Leading region:** West
+- **Least profitable subcategory:** Tables (-$17,725.48)
 
-## 📅 Estacionalidad
-- Mejores meses: Noviembre y Diciembre
-- Menores ventas: Enero, Febrero y otros dependiendo del año
-- Las ventas se concentran en temporadas fuertes
+## 📅 Seasonality
+- Strongest sales months: November and December
+- Weakest months: January, February, and others depending on year
+- Clear seasonality due to holidays and promotional events
 
-## ✅ Recomendaciones
-1. Promocionar más productos de Office y Furniture
-2. Revisar descuentos excesivos
-3. Expandir la operación en región South
-4. Fidelizar clientes clave
+## ✅ Strategic Recommendations
+1. Promote Office and Furniture categories more
+2. Review and optimize large discounts or promotions
+3. Expand into South region to balance revenue
+4. Develop loyalty strategies for top customers
 
-## 🌐 Dataset
-- Superstore Dataset (original de Kaggle): [https://www.kaggle.com/datasets/teslared/superstore-dataset-final](https://www.kaggle.com/datasets/teslared/superstore-dataset-final)
+## 🌐 Dataset Source
+- Superstore Dataset (original from Kaggle):  
+  [https://www.kaggle.com/datasets/teslared/superstore-dataset-final](https://www.kaggle.com/datasets/teslared/superstore-dataset-final)
+
+## 👨‍💻 Tools Used
+- Microsoft Excel (Pivot Tables, Slicers, Charts, Conditional Formatting)
+
+---
+
+### 🚀 Ready for the next phase: SQL, Python, and Power BI!
